@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>excremento | 현대 예술 갤러리</title>
+    <meta name="description" content="45억년의 시간을 담은 예술 작품 컬렉션. 가치의 본질을 재정의하는 현대 미술 갤러리." />
+    <meta name="author" content="excremento" />
+
+    <meta property="og:title" content="excremento | 현대 예술 갤러리" />
+    <meta property="og:description" content="45억년의 시간을 담은 예술 작품 컬렉션. 가치의 본질을 재정의하는 현대 미술 갤러리." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@excremento" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <script>
+      (function () {
+        try {
+          var theme = localStorage.getItem("theme");
+          if (theme === "dark") document.documentElement.classList.add("dark");
+          else if (theme === "light") document.documentElement.classList.remove("dark");
+          else if (
+            window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches
+          )
+            document.documentElement.classList.add("dark");
+        } catch (e) {
+          /* ignore */
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+  </body>
+</html>

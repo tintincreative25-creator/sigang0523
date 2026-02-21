@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# NPM lock file (if you prefer not to commit lockfile)
+package-lock.json
+
+# Logs
+npm-debug.log*
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# local editor files
+.vscode/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
